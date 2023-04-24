@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.pag1{
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+    height: 580px;
+    width: 1080px;
+}
+
+.pag1>h1{
+    text-align: center;
+    font-size: 3.5em;
+}
+.sub{
+    text-align: center;
+}
+
+#hi{
+    margin-bottom: 40px;
+}
+#hf{
+    margin: 40px 20px;
+    text-align: center;
+}
+.pag1>ul{
+    font-weight: bold;
+    list-style: inside;
+    columns: 2;
+}
+p{
+    font-weight: lighter;
+}
+.img1{
+    height: 200px;
+    width: 220px;
+    position: absolute;
+    bottom:0;
+    left: 82%;
+}

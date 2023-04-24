@@ -1,0 +1,27 @@
+@charset "uft-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #0B3667;
+}
+
+body,html{
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    background-image: url('../imagens/fundo11.jpg');
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.cont{
+    margin: 0 1%;
+    margin-top: 10%;
+
+}
+
+

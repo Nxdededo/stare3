@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.pag2{
+    position: relative;
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+    height: 450px;
+    width: 1080px;
+    left: 19%;
+}
+
+
+.pag2 h1 {
+    font-size: 3.5em;
+    font-style: italic;
+    width: 60%;
+}
+
+.pag2 p {
+    margin: 40px 2%;
+    font-size: 1.3em;
+    text-align: justify;
+    width: 60%;
+}
+
+.pag2 img {
+    position: absolute;
+    height: 100%;
+    width: 36%;
+    top: 0;
+    right: 0;
+}
+ 
