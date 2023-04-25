@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: black;
+}
+
+h1,h2{
     color: #0B3667;
 }
 
@@ -15,13 +19,30 @@ body,html{
 body{
     background-image: url('../imagens/fundo11.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     overflow-x: hidden;
 }
 
-.cont{
-    margin: 0 1%;
-    margin-top: 10%;
 
+.cont{
+    position: relative;
+    margin-top: 10%;
 }
 
+.titulo{
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+    height: 100px;
+    position: relative;
+    text-align: center; 
+}
+
+.titulo>h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 3em;
+}
 

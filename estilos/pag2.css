@@ -2,32 +2,26 @@
 
 .pag2{
     position: relative;
-    background-color: transparent;
-    backdrop-filter: blur(2px);
+    background-image: url('../imagens/apresentação.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 450px;
     width: 1080px;
-    left: 19%;
+    margin: auto;
 }
-
-
-.pag2 h1 {
-    font-size: 3.5em;
-    font-style: italic;
-    width: 60%;
-}
-
 .pag2 p {
+    opacity: 0.8;
+    position: absolute;
+    top: 15%;
+    left: 41%;
     margin: 40px 2%;
+    width: 50%;
+    text-indent: 30px;
     font-size: 1.3em;
     text-align: justify;
-    width: 60%;
+    text-shadow:#0B3667 1px 1px 3px;
+    color: white;
 }
 
-.pag2 img {
-    position: absolute;
-    height: 100%;
-    width: 36%;
-    top: 0;
-    right: 0;
-}
+
  

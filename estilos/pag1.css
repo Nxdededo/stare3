@@ -1,39 +1,30 @@
 @charset "UTF-8";
 
 .pag1{
-    background-color: transparent;
-    backdrop-filter: blur(2px);
-    height: 580px;
+    background-image: url('../imagens/fundo-texto1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
     width: 1080px;
-}
-
-.pag1>h1{
-    text-align: center;
-    font-size: 3.5em;
-}
-.sub{
-    text-align: center;
-}
-
-#hi{
-    margin-bottom: 40px;
-}
-#hf{
-    margin: 40px 20px;
-    text-align: center;
+    margin: auto;
+    padding-left: 2%;
 }
 .pag1>ul{
+    padding-top: 70px;
+    font-size: 1.5em;
     font-weight: bold;
     list-style: inside;
     columns: 2;
 }
 p{
+    padding: 10px;
+    font-size: 0.9em;
     font-weight: lighter;
 }
 .img1{
-    height: 200px;
-    width: 220px;
-    position: absolute;
-    bottom:0;
-    left: 82%;
+    height: 250px;
+    width: 270px;
+    position: relative;
+    bottom: 150px;
+    left: 80%;
 }

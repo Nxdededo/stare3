@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-.pag3{
+.pag5{
     position: relative;
     background-image: url('../imagens/fundo-texto1.jpg');
     background-repeat: no-repeat;
@@ -10,31 +10,21 @@
     margin: auto;
 }
 
-.pag3>p{
-    font-size: 1.5em;
+.pag5>p{
+    font-size: 1.4em;
     text-align: justify;
     text-indent: 30px;
     position: absolute;
     padding:5%;
-    right: 0;
+    left: 0;
     height: 100%;
-    width: 50%;
+    width: 60%;
 }
 
-.pag3>a{
-    border: #0B3667 2px solid;
-    border-radius: 10px;
-    padding: 5px 40px;
+.pag5>img{
     position: absolute;
-    right: 12%;
-    bottom: 2%;
-    background-color: #81afe460;
-}
-
-.pag3>img{
-    position: absolute;
-    width: 40%;
-    height: 65%;
-    left: 2%;
+    width: 45%;
+    height: 70%;
+    right: 2%;
     bottom: 50px;
 }

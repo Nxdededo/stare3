@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.pag4{
+    position: relative;
+    background-image: url('../imagens/objetivos1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 1080px;
+    margin: auto;
+}
+.pag4>p{
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+    opacity: 0.8;
+    text-indent: 30px;
+    font-size: 1.3em;
+    text-align: justify;
+    text-shadow:#0B3667 1px 1px 3px;
+    color: white;
+}
